@@ -1,1 +1,70 @@
-# BMC
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>BMC - Louis de Maintenant</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style>
+<!-- 
+body { background:#ffffff;}
+a:link {text-decoration: none; color: blue}
+a:visited {text-decoration: none; color: purple}
+a:active {text-decoration: none; color: red}
+a:hover {text-decoration: none; color:red}
+-->
+</style>
+<script type="text/javascript"> 
+<!-- hide 
+function deserrs()
+{ 
+return true; 
+} 
+window.onerror = deserrs; 
+// --> 
+</script>
+</head>
+<body style = "background-image:url(bgimg/backImg.jpg);">
+<script type="text/javascript">
+var currentpos,timer; 
+function initialize() 
+{ 
+timer=setInterval("scrollwindow()",10);
+} 
+function sc(){
+clearInterval(timer); 
+}
+function scrollwindow() 
+{ 
+currentpos=document.body.scrollTop; 
+window.scroll(0,++currentpos); 
+if (currentpos != document.body.scrollTop) 
+sc();
+} 
+document.onmousedown = sc;
+document.ondblclick = initialize;
+var tmp = "<div style=\"position:absolute; top:" + parent.offsetY + "; left:" + parent.offsetX + ";height:842px; width:1191px\">";
+document.writeln(tmp);
+</script>
+<table border="0" height="842" width="1191">
+<tr><td>
+<div style="position:absolute; top:0; left:0;"><img height="842" width="1191"src="bgimg/bg00001.jpg"/></div>
+<div style="position:absolute;top:299.223;left:103.407;"><nobr>
+<span style="font-size:16.990;color: #ff9900;">26</span>
+<span style="font-size:16.990;color: #ff9900;">September</span>
+<span style="font-size:16.990;color: #ff9900;">2018</span>
+</nobr></div>
+<div style="position:absolute;top:401.532;left:157.657;"><nobr>
+<span style="font-size:25.485;font-weight:bold;color: #ff9900;">Louis</span>
+<span style="font-size:25.485;font-weight:bold;color: #ff9900;">de</span>
+<span style="font-size:25.485;font-weight:bold;color: #ff9900;">MAINTENANT</span>
+</nobr></div>
+</td></tr>
+</table>
+</div>
+<script type="text/javascript">
+var currentZoom = parent.toolbarWin.currentZoom;
+if(currentZoom != undefined)
+document.body.style.zoom=currentZoom/100;
+</script>
+</body>
+</html>
+
